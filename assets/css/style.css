@@ -15,5 +15,60 @@
   padding: 0;
 }
 
-
 /* #endregion Common */
+
+/* #region Utility */
+
+.container {
+  max-width: 1152px;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* #endregion Utility */
+
+/* #region Debug */
+
+.debug * {
+  outline: 1px solid lime;
+}
+
+.debug #app_main .cams_container {
+  height: calc(100vh - 200px);
+}
+
+/* #endregion Debug */
+
+/* #region Main */
+
+#app_main {
+  background-color: var(--clr-darker);
+  height: calc(100vh - 80px);
+}
+
+#app_main > .container {
+  height: 100%;
+  position: relative;
+}
+
+#app_main .cams_container {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 0 5%;
+}
+
+/* #endregion Main */
+
+
+/* #region Footer */
+
+#app_footer {
+  background-color: var(--clr-dark);
+  height: 80px;
+}
+
+/* #endregion Footer */
