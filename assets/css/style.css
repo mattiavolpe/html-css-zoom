@@ -67,6 +67,25 @@ img {
   position: relative;
 }
 
+#app_main .top_right {
+  color: var(--clr-primary);
+  position: absolute;
+  right: 0;
+  top: 40px;
+  transform: translate(0, -50%);
+  align-items: center;
+}
+
+#app_main .top_right > * {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--clr-dark);
+}
+
+#maximize {
+  margin-left: 10px;
+}
+
 #app_main .cams_container {
   justify-content: center;
   align-items: flex-start;
