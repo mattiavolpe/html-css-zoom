@@ -1,0 +1,19 @@
+/* #region Common */
+
+:root {
+  --clr-darker: #000000;
+  --clr-dark: #222222;
+  --clr-medium: #4a4a4a;
+  --clr-primary: #ffffff;
+  --clr-red: #eb0e11;
+  --clr-green: #4bc800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* #endregion Common */
