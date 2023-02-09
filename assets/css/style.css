@@ -173,6 +173,7 @@ img {
   font-size: 1.25rem;
   margin: 0;
   font-weight: 900;
+  border-radius: 20px;
 }
 
 /* #endregion Footer */
