@@ -28,15 +28,6 @@ img {
   vertical-align: middle;
 }
 
-/* TO USE FONTAWESOME ICONS WITH CSS CODE */
-.icon::before {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
 /* #endregion Common */
 
 /* #region Utility */
@@ -121,21 +112,18 @@ img {
   overflow-y: auto;
 }
 
-#app_main .cams_container .col-2.icon::after {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: '\f131 Pinco Pallo';
-  font-size: 0.6rem;
+#app_main .cams_container img {
+  aspect-ratio: 3/2;
+}
+
+#app_main .cams_container .username {
+  font-size: 0.875rem;
   color: white;
   position: absolute;
   left: 5px;
   bottom: 5px;
   padding: 5px;
   background-color: #00000066;
-}
-
-#app_main .cams_container img {
-  aspect-ratio: 3/2;
 }
 
 /* #endregion Main */
